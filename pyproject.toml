@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "flask-practice"
+version = "0.1.0"
+description = ""
+authors = ["alias09inc <kenshi06182001@gmail.com>"]
+readme = "README.md"
+packages = [{include = "flask_practice"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+flask = "^2.3.2"
+flask-wtf = "^1.1.1"
+bootstrap-flask = "^2.3.0"
+flask-sqlalchemy = "^3.0.5"
+flask-migrate = "^4.0.4"
+flask-moment = "^1.0.5"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
